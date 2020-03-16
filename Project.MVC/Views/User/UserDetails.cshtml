@@ -1,0 +1,19 @@
+﻿@model AppUser
+@{
+    Layout = "_Layout";
+}
+
+<h1>AppUserDetails</h1>
+
+<div>
+    <label asp-for="FirstName">Name</label>
+    <div>
+        @Model.FirstName
+    </div>
+    <label asp-for="LastName">Name</label>
+    <div>
+        @Model.LastName
+    </div>
+</div>
+
+
